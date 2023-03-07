@@ -15,7 +15,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 
-	@PostMapping("/customer/save")
+	/*@PostMapping("/customer/save")
 	public Customer saveCustomer(@RequestBody Customer customer) {
 		return customerService.saveCustomerInfo(customer);
 	}
@@ -23,5 +23,5 @@ public class CustomerController {
 	@PutMapping("/customer/updateCustomerInfo")
 	public Customer updateCustomer(@RequestBody Customer customer) {
 		return customerService.saveCustomerInfo(customer);
-	}
+	}*/
 }
