@@ -19,8 +19,8 @@ public class CustomerController {
 		return customerService.saveCustomerInfo(customer);
 	}
 	
-	/*@PutMapping("/customer/updateCustomerInfo")
+	@PutMapping("/customer/updateCustomerInfo")
 	public Customer updateCustomer(@RequestBody Customer customer) {
 		return customerService.saveCustomerInfo(customer);
-	}*/
+	}
 }
